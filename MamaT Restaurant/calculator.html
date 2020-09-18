@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>MamaT-Home</title>
+    
+    <style>
+        .calculator_body{
+            border-color: gray;
+            border-width: 2px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: purple;
+            padding: 20px;
+            color: white;
+        }
+        input{
+            margin: 10px;
+            border: black 2px solid;
+        }
+    </style>
 </head>
 <body>
     <h3>Simple Calculator</h3> 
@@ -12,12 +28,16 @@
     <br>
     <br>
     <br>
-    <div>
-        First Number: <input type="text" id="first_number"/>
-        Second Number<input type="number" id="second_number"  min="0" value="0"/>
-        Answer: <input type="number" id="answer" readonly/>
-        <button onclick="addTheTwoNumber();">Add</button>
+    <div class="calculator_body">
+        <div>First Number: <input type="text" id="first_number"/></div>
+        <div>Second Number: <input type="number" id="second_number"  min="0" value="0"/><br></div>
+        <div>Answer: <input type="number" id="answer" readonly style="background-color: gray; border: blue 3px dotted; width: 50px; border-radius: 8px;"/></div>
+        
+        <div><button onclick="addTheTwoNumber();">Add</button></div>
     </div>
+    <p class="calculator_body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue suscipit pharetra. Aenean et eleifend est. Proin aliquet felis quis nibh venenatis, id accumsan nibh rutrum. In quis commodo magna, dignissim lacinia justo. Suspendisse felis urna, sollicitudin vel interdum non, varius vitae ipsum. Donec nunc augue, luctus non semper vel, gravida eget orci. Nunc nec laoreet diam. Mauris in semper neque, vel semper velit. Nulla eget risus porta, dignissim orci quis, tristique augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tempor sodales dolor, eget tristique magna dapibus ac. Mauris ac libero in sem efficitur vestibulum. Aenean pulvinar nunc non pharetra maximus.
+    </p>
     <script src="js/main.js">
     
     </script>

@@ -1,0 +1,15 @@
+p,div{
+    padding: 20px;
+}
+
+.blue_paragraph{
+    background-color: #2f3d69;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+#myparagraph{
+    font-weight: bold;
+    font-style: italic;
+}
+
