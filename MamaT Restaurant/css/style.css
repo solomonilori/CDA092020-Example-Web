@@ -3,13 +3,27 @@ p,div{
 }
 
 .blue_paragraph{
-    background-color: #2f3d69;
+    background-color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
 }
 
+p{
+    background-color: #ffffff;
+}
 #myparagraph{
     font-weight: bold;
     font-style: italic;
+}
+
+#first_div{
+    background-color: royalblue;
+    background-image: url('../img/shish-kebab-417994__340.webp');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: scroll;
+    background-attachment: fixed;
+    background-size: cover;
 }
 

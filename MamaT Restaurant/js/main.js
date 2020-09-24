@@ -25,3 +25,19 @@ function addTheTwoNumber() {
     document.getElementById('answer').value  =  answer;
     
 }
+
+function test(){
+    var a = 5; var b = "5"; 
+    if(a==5){
+        if(b==6){
+            console.log('Your head no correct');
+        }else{
+            console.log('Your head is correct');
+        }
+        console.log('yes');
+    }else if(b==5){
+        console.log('this is elseif statement');
+    }else{ 
+        console.log('No');
+    }
+}
